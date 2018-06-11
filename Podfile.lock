@@ -1,0 +1,32 @@
+PODS:
+  - Alamofire (4.7.2)
+  - BarcodeScanner (4.1.3)
+  - CalendarKit (0.3.1):
+    - DateToolsSwift
+    - Neon
+  - DateToolsSwift (4.0.0)
+  - Neon (0.4.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.7)
+  - BarcodeScanner
+  - CalendarKit
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - BarcodeScanner
+    - CalendarKit
+    - DateToolsSwift
+    - Neon
+
+SPEC CHECKSUMS:
+  Alamofire: e4fa87002c137ba2d8d634d2c51fabcda0d5c223
+  BarcodeScanner: fce1ad2b3f28286b1ab5091fe0979789618bee27
+  CalendarKit: d188d78a424c1559a6a5b1ee18c37180fde1498f
+  DateToolsSwift: 875d97ff9e3a5d54abdd67a269b3f51c757b71ab
+  Neon: 7fb5a9327e7e57911843f608e08f4893a74deaf9
+
+PODFILE CHECKSUM: 5c2df2e25121a3bfaa7fcbbbe0714f9c32c884d0
+
+COCOAPODS: 1.5.3
