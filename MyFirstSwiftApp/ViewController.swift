@@ -80,15 +80,11 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         // self.names.append(name)
         self.save(name: name, email: email, username: uname, password: pwd)
        
-        self.getData()
-        
-        self.dbTableView.reloadData()
-        
         let manager = NetworkReachabilityManager(host: "www.apple.com")
-       
+        
         manager?.listener = { status in
             print("Network Status Changed: \(status)")
-           //self.showAlert(alertMessage: "Connected to: \(status)")
+            //self.showAlert(alertMessage: "Connected to: \(status)")
         }
         manager?.startListening()
       
@@ -145,6 +141,11 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
 //                }
             }
         }
+        
+        self.getData()
+        
+        self.dbTableView.reloadData()
+        
       
     }
 
